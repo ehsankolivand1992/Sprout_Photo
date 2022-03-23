@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+
 android {
     compileSdk Libs.defaultConfig.compileSdk
 
@@ -40,6 +41,15 @@ dependencies {
     testImplementation(Libs.androidx.junit)
     androidTestImplementation(Libs.androidx.espresso)
     androidTestImplementation(Libs.androidx.androidxjunit)
+
+    //navigation component
+    implementation(Libs.navigation.navigationـfragment)
+    implementation(Libs.navigation.navigationـui)
+
+    //timber
+    implementation(Libs.timber.timber)
+
+
 
 
 }
