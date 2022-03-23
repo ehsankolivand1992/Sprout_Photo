@@ -16,4 +16,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Sprout Photo"
 include ':app'
-include ':Core'
