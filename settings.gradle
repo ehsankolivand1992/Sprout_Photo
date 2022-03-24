@@ -3,7 +3,6 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
-
     }
 }
 
@@ -14,5 +13,9 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "Sprout Photo"
 include ':app'
+include ':Data'
+include ':Domain'
+include ':Presentation'
